@@ -1,5 +1,5 @@
 # ORS
-<p>Online Reservation Database Project.</p>
+### Online Reservation Database Project.
 
 ### Project Background
 - Developed after a long break from coding to refresh skills.
