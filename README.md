@@ -1,5 +1,6 @@
 # ORS
 <p>Online Reservation Database Project.</p>
+
 ### Project Background
 - Developed after a long break from coding to refresh skills.
 - Focus on PHP and MySQL for the database.
