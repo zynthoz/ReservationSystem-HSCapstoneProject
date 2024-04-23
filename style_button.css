@@ -1,0 +1,425 @@
+.edit{
+    height: 30px;
+    display: inline-block;
+    width: 95px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #4299e1;
+    border-radius: 4px;
+    padding: 0 18px 0 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+}
+
+.edit:hover{
+    background-color: #246da8;
+    transition: all .2s ease-in-out;
+}
+
+img.edit-icon{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.delete{
+    height: 30px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #FA8072;
+    padding: 0 10px 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+}
+
+.delete:hover{
+    background-color: #cf5a4d;
+    transition: all .2s ease-in-out;
+}
+
+img.delete-icon{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.correct{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #148F77;
+    padding: 0 8px 0 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 19px;
+}
+
+.correct:hover{
+    background-color: #076350;
+    transition: all .2s ease-in-out;
+}
+
+img.correct-icon{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.reject{
+    height: 30px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #FA8072;
+    padding: 0 10px 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+}
+
+.reject:hover{
+    background-color: #cf5a4d;
+    transition: all .2s ease-in-out;
+}
+
+img.reject-icon{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.add{
+    position: relative;
+    top: 17.2px;
+    right: 6px;
+    display: inline-block;
+    width: 160px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #DA70D6	;
+    border-radius: 4px;
+    padding: 8px 16px 4px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    margin-right: 10px;
+}
+
+img.add-icon{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.create-reservation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-now{
+    background-color: #1A7EE6;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12.5px;
+    border: none;
+    border-radius: 0.70rem;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button-facility{
+    z-index: 100;
+    left: 400;
+    position: relative;
+    background-color: #DA70D6;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    width: fit-content;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12.5px;
+    border: none;
+    border-radius: 0.70rem;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button-facility:hover{
+    transition: all .2s ease-in-out;
+    background-color: #b653b3;
+}
+
+.button-reserve{
+    background-color: #1259a5;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 11.9px;
+    border-radius: 0.70rem;
+    border: none !important;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button-reserve:hover{
+    transition: all .2s ease-in-out;
+    background-color: #0f4682;
+}
+
+.side-panel-button{
+    height: 42;
+    text-align: left;
+    width: fit-content;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none; /* remove the outline when the button is clicked */
+  color: black;
+  font-weight: 500;
+}
+
+.side-panel-button:hover {
+}
+
+.side-panel-button-div{
+    cursor: pointer;
+    display: inline-block;
+        width: auto;
+        padding-left:10px;
+        filter: opacity(0.6);
+        border-radius: 12px;
+}
+
+.logout-link{
+    position: absolute;
+    bottom: 25;
+    right: 38;
+    width: 73%;
+}
+
+.side-panel-button-logout-div{
+    filter: grayscale(1);
+    filter: opacity(0.8);
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.side-panel-button-logout{
+    font-weight: 500;
+  display: block;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none; /* remove the outline when the button is clicked */
+  color: black;
+}
+
+.side-panel-button-logout:hover {
+  transition: all 0s ease-in-out;
+}
+
+.hide-me {
+    display: none;
+}
+
+.i-am-a-link {
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.i-am-a-link-2 {
+    cursor: pointer;
+    position: relative;
+    bottom: 3;
+}
+
+#image-upload-label{
+    width: 20px;
+    height: 20px;
+}
+
+.file-upload{
+    position: relative;
+    right: 693px;
+    bottom: 73px;
+    width: 360px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 13px;
+    background-color: white;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 0.70rem;
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.file-upload1{
+    width: 350px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 13px;
+    background-color: white;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 0.70rem;
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.side-panel-button-logout-div:hover{
+    transition: all .2s ease-in-out;
+    filter: opacity(1);
+    transform: scale(1.03);
+    background-color: rgba(202, 202, 202, 0.568);
+}
+
+
+.side-panel-button-div:hover{
+    transition: all .2s ease-in-out;
+    background-color: rgba(202, 202, 202, 0.301);
+    font-weight: bold;
+    cursor: pointer;
+    filter: opacity(1);
+}
+
+.side-panel-button-div:hover input[type="submit"],
+.side-panel-button-div:hover button {
+    font-weight: bold;
+    filter: opacity(1);
+    cursor: pointer;
+}
+
+.logout-button{
+    transition: all .2s ease-in-out;
+    filter: grayscale(1);
+    opacity: (0.5);
+}
+
+.logout-button:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+    opacity: (1);
+}
+
+.sort-button{
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.70rem;
+    display: flex;
+    height: 45.5px;
+    position: relative;
+}
+
+.inbox-container{
+    position: absolute;
+    z-index: 1;
+    right: 87;
+}
+
+.button-guideline{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.view{
+    width: 73.16px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #1f4176;
+    padding: 6px 10px 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 19px;
+}
+
+.view:hover{
+    background-color: #162d53;
+    transition: all .2s ease-in-out;
+}
+
+.review{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #5b86ca;
+    padding: 6px 8px 0 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 19px;
+}
+
+.review:hover{
+    background-color: #3e629c;
+    transition: all .2s ease-in-out;
+}
+
+.sort-button-container{
+    display: flex;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Rows with Flexbox</title>
+    <style>
+        #reservation {
+            display: flex;
+            margin-bottom: 10px; /* Optional: Add margin between rows */
+        }
+
+        .row div {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-right: 10px; /* Optional: Add margin between columns */
+        }
+    </style>
+</head>
+<body>
+  <div id="reservation">
+    <div class="header_dash"><h1>Confirm your reservation</h1></div>
+    <div class="columns">
+    <div class="left detail"><h2 style="font-weight: bold;">Booking details</h2>
+   <span class="logo_beside" style="margin-left: 10px;"> <img src="facility.png">Facility:</span>
+   <span class="logo_beside" style="margin-left: 10px;"> <img src="calendar.png">Date:</span>
+   <span class="logo_beside" style="margin-left: 10px;"> <img src="time.png">Time:</span>
+    </div>
+    <div class="left confirm">
+    <button>CONFIRM</button>
+    </div>
+  
+    <div class="right form"></div>
+    </div>
+  </div>
+</body>
+</html>

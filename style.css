@@ -1,0 +1,206 @@
+html,body,.parent{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p{
+    margin: auto;
+    padding: 0;
+}
+
+.big{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+label{
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.header1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #142446;
+    align-items: center;
+}
+
+.logo-div1{
+    margin-left: 0.8%;
+  display: flex;
+  height: 100%;
+  flex: 19.25%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100%;
+}
+
+.invalidCreds{
+    display: flex;
+    background-color: #fcdce0;
+    height: 60px;
+    width: 331px;
+    border: 1px solid #ff91a0;
+    border-radius: 10px;
+    color: #b1273b;
+    font-weight: bold;  
+}
+
+.invalidIcon{
+    position: inherit;
+    margin-left: 88px;
+    margin-top: 21px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.invalid{
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+img{
+    height: 100px;
+    object-fit: fill;
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child{
+    margin-bottom: 100px;
+    height: 475.88px;
+    width: 331px;
+    display: inline;
+}
+
+.signIn{
+    text-align: center;
+}
+
+a{
+    position: relative;
+    color: #1A7EE6;
+    text-decoration: none;
+}
+
+.forgotPass{
+    margin-left: 21%;
+}
+
+.createAcc{
+    margin-left: 12%;
+    
+    
+}
+
+
+.inputBox{
+    height: 40px;
+    width: 319px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(185, 185, 185, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 7px;
+}
+
+.inputBox:focus{
+    outline: none;
+}
+
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#rememberMe{
+    border: 10px;
+}
+
+.button{
+    color: white;
+    background-color: #1A7EE6;
+    height: 50px;
+    width: 331px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    filter: brightness(0.9);
+}
+
+.line{
+    height: 2px;
+    width: 331px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+}
+
+.password{
+    display: inline-block;
+    position: relative;
+    height: 42px;
+    width: 321px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(185, 185, 185, 0.5);
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+.password input{
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    height: 38px;
+    width: 315px;
+    padding-top: 3px;
+    padding-left: 2px;
+    font-size: 16px
+}
+
+.passIcon{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+  }
+
+.flex-container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_home.css">
+
+    <script src="home.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="header-parent" class="header">
+    <div id="header-child" class="header">
+        <button id="button1" onclick="toggleDiv('div1', 'button1')">Reservation Form</button>
+        <button id="button2" onclick="toggleDiv('div2', 'button2')">Reservation List</button>
+        <button id="button3" onclick="toggleDiv('div3', 'button3')">ADMIN</button>
+        <button id="button4" onclick="toggleDiv('div4', 'button4')">Audit Log</button>
+        
+
+    </div>
+</div>
+
+<div id="div1" class="divs">
+    <form action="process.php">
+        <input type="radio" id="grade" name="level" value="grade">
+        <label for="grade">Grade School</label><br>
+        <input type="radio" id="high" name="level" value="high">
+        <label for="high">High School</label><br>
+       
+        <label for="facilityOptions">Facility:</label>
+        <select id="facilityOptions" name="facilityOptions">
+           <option value=""></option>
+           <option value="kindergarten" data-group="grade">GS Facility</option>
+           <option value="firstGrade" data-group="grade">GS Facility</option>
+           <option value="secondGrade" data-group="grade">GS Facilitye</option>
+           <option value="thirdGrade" data-group="grade">GS Facility</option>
+           <option value="fourthGrade" data-group="grade">GS Facility</option>
+           <option value="fifthGrade" data-group="grade">GS Facility</option>
+           <option value="sixthGrade" data-group="high">HS Facility</option>
+           <option value="seventhGrade" data-group="high">HS Facility</option>
+           <option value="eighthGrade" data-group="high">HS Facility</option>
+           <option value="ninthGrade" data-group="high">HS Facility</option>
+           <option value="tenthGrade" data-group="high">HS Facility</option>
+           <option value="eleventhGrade" data-group="high">HS Facility</option>
+           <option value="twelfthGrade" data-group="high">HS Facility</option>
+        </select>
+
+        <br>
+
+       <label for="timeIn">Time In:</label>
+       <input id="timeIn" type="text">
+
+       <label for="timeOut">Time Out:</label>
+       <input id="timeOut" type="text">
+
+<br>
+
+<label for="dateNeeded">Date Needed:</label>
+<input type="date" id="dateNeeded" name="dateNeeded">
+
+<br>
+
+<label for="purpose">Purpose:</label>
+<input id="purpose" type="text">
+
+<br>
+
+<label for="numParticipants">Number of Participants:</label>
+<input id="numParticipants" type="text">
+
+<br>
+
+<label for="yes">Will the teacher/adviser be with the participants?:</label>
+<input type="radio" id="yes" name="supervisor" value="yes">
+<label for="yes">Yes</label>
+<input type="radio" id="no" name="supervisor" value="no">
+<label for="no">No</label>
+
+<br>
+
+<label for="inCharge">Teacher/Person in charge:</label>
+<input id="inCharge" type="text">
+
+<br>
+
+<input type="submit">
+</form>
+</div>
+
+        <div id="div2" class="divs">
+          <label for="currentReservation">Reservation List</label>
+          <table id="currentReservation">
+            <tr>
+              <th>Date</th>
+              <th>Department</th>
+              <th>Facility</th>
+              <th>Time</th>
+            </tr>
+            <tr>
+              <td>DD/MM/YYYY</td>
+              <td>Grade School</td>
+              <td>Gym</td>
+              <td>10:00-12:00</td>
+            </tr>
+          </table>
+
+          <label for="pendingReservation">Pending Reservation (HIDDEN EXCEPT FOR ADMINS)</label>
+          <table id="pendingReservation">
+            <tr>
+              <th>Date</th>
+              <th>Department</th>
+              <th>Facility</th>
+              <th>Time</th>
+              <th>Name</th>
+              <th>Affiliation</th>
+              <th>Reason</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>DD/MM/YYYY</td>
+              <td>Grade School</td>
+              <td>Gym</td>
+              <td>10:00-12:00</td>
+              <td>Aaron Lime</td>
+              <td>Teacher</td>
+              <td>Lorem Ipsum</td>
+              <td>Pending</td>
+            </tr>
+            </table>
+          </div>
+          
+          <div id="div3" class="divs">
+            <label for="facilityList">Facilities List</label>
+            <button id="editFacilities">Edit Facilities</button>
+            <button id="addFacilities">Add Facilities</button>
+            <table id="facilityList">
+              <tr>
+                <th>Facility</th>
+                <th>Access</th>
+                <th>Floor</th>
+              </tr>
+              <tr>
+                <td>CAI Lab</td>
+                <td>Private</td>
+                <td>Grounds</td>
+              </tr>
+              <tr>
+                <td>HS Gym</td>
+                <td>Public</td>
+                <td>5th Floor</td>
+              </tr>
+              <tr>
+                <td>Library</td>
+                <td>Private</td>
+                <td>2nd Floor</td>
+              </tr>
+            </table>
+          </div>
+          
+          <div id="div4" class="divs">
+            <label for="auditLog">Audit Log</label>
+            <table id="auditLog">
+              <tr>
+                <th>Date</th>
+                <th>Department</th>
+                <th>Facility</th>
+                <th>Time</th>
+                <th>Name</th>
+                <th>Affiliation</th>
+                <th>Reason</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>DD/MM/YYYY</td>
+                <td>Grade School</td>
+                <td>Gym</td>
+                <td>10:00-12:00</td>
+                <td>Aaron Lime</td>
+                <td>Teacher</td>
+                <td>Lorem Ipsum</td>
+                <td>Pending</td>
+              </tr>
+              </table>
+          </div>
+          
+</body>
+</html>

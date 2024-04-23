@@ -1,0 +1,91 @@
+.custom-select {
+  background-color: white;
+    min-width: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.70rem;
+    
+  }
+  
+  select {
+    background-color: white;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    width: 100%;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 13px;
+    background-color: #fff;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.70rem;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .reason {
+    background-color: white;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    width: 100%;
+    height: 143.5px;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.70rem;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  textarea {
+    background-color: white;
+    appearance: none;
+    /*  safari  */
+    -webkit-appearance: none;
+    /*  other styles for aesthetics */
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.70rem;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .custom-select::before,
+  .custom-select::after {
+    --size: 0.3rem;
+    content: "";
+    position: absolute;
+    right: 1rem;
+    pointer-events: none;
+  }
+  
+  
+  
+  /*=============
+  Aesthetics 
+  =========================*/
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .select-arrow {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem 1.5rem;
+    padding-right: 2.75rem;
+  }

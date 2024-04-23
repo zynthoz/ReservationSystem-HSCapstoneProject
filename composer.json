@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "pelago/emogrifier": "^7.2"
+    }
+}
